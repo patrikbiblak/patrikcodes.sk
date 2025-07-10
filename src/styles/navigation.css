@@ -115,6 +115,10 @@
   transition: color 0.2s ease;
 }
 
+.language-buttons button:hover {
+  color: var(--text-secondary);
+}
+
 @media (max-width: 1000px) {
   .hamburger {
     display: flex;

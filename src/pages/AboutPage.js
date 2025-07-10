@@ -1,6 +1,11 @@
+import "../styles/aboutpage.css";
+
 const AboutPage = () => {
     return (
-        <h2>O mne</h2>
+        <div className="about-page">
+            <h1>Kto som?</h1>
+            <p></p>
+        </div>
     )
 }
 

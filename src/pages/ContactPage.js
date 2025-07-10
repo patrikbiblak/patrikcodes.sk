@@ -1,6 +1,10 @@
+import "../styles/contactpage.css";
+
 const ContactPage = () => {
     return (
-        <h2>Contact</h2>
+        <div className="contact-page">
+            <h1>Poďme na to!</h1>
+        </div>
     )
 }
 

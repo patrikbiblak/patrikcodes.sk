@@ -30,9 +30,9 @@ const App = () => {
         <main>
           <Routes>
             <Route path="/" element={<HomePage />}/>
-            <Route path="/src/pages/AboutPage.js" element={<AboutPage />}/>
-            <Route path="/src/pages/ProjectsPage.js" element={<ProjectsPage />}/>
-            <Route path="/src/pages/ContactPage.js" element={<ContactPage />}/>
+            <Route path="/about" element={<AboutPage />}/>
+            <Route path="/projects" element={<ProjectsPage />}/>
+            <Route path="/contact" element={<ContactPage />}/>
           </Routes>
         </main>
         <ContactModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />

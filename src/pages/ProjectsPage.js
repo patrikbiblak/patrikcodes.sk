@@ -1,6 +1,10 @@
+import "../styles/projectspage.css";
+
 const ProjectsPage = () => {
     return (
-        <h2>Projects</h2>
+        <div className="projects-page">
+            <h1>Projects</h1>
+        </div>
     )
 }
 

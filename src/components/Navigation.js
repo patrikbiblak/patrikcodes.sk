@@ -12,9 +12,9 @@ const Navigation = () => {
 
   const navItems = [
     { path: "/", label: "Domov" },
-    { path: "/o-mne", label: "O mne" },
-    { path: "/projekty", label: "Projekty" },
-    { path: "/kontakt", label: "Kontakt" },
+    { path: "/about", label: "O mne" },
+    { path: "/projects", label: "Projekty" },
+    { path: "/contact", label: "Kontakt" },
   ];
 
   const toggleMenu = () => setIsOpen((prev) => !prev);

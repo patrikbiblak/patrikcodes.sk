@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import AboutPage from "./pages/AboutPage";
+import HomePage from "./pages/HomePage";
+import ProjectsPage from "./pages/ProjectsPage";
+import ContactPage from "./pages/ContactPage";
+import NavigationBar from "./components/Navigation";
+import Footer from "./components/Footer";
+import ContactModal from "./hooks/ContactModal";
 
-function App() {
+const App = () => {
+  if ('scrollRestoration' in window.history) {
+    window.history.scrollRestoration = 'manual';
+  }
+
+  const [modalOpen, setModalOpen] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setModalOpen(true);
+    }, 5000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <div className="content">
+        <NavigationBar />
+        <main>
+          <Routes>
+            <Route path="/" element={<HomePage />}/>
+            <Route path="/src/pages/AboutPage.js" element={<AboutPage />}/>
+            <Route path="/src/pages/ProjectsPage.js" element={<ProjectsPage />}/>
+            <Route path="/src/pages/ContactPage.js" element={<ContactPage />}/>
+          </Routes>
+        </main>
+        <ContactModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
+        <Footer />
+      </div>
+    </Router>
+  )
 }
 
 export default App;

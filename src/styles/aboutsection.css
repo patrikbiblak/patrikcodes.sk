@@ -28,6 +28,11 @@
   transition: transform 1s ease-out, opacity 1s ease-out;
 }
 
+.about-item:last-child:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+}
+
 .about-item img {
   width: 100%;
   height: 100%;

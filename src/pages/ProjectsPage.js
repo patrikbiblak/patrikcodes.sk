@@ -1,9 +1,14 @@
+import { useRef } from 'react';
+import ScrollAnimation from "../hooks/ScrollAnimation";
 import "../styles/projectspage.css";
 
 const ProjectsPage = () => {
+    const rightRef = useRef(null);
+    ScrollAnimation(rightRef, { customClass: 'right' });
+
     return (
         <div className="projects-page container">
-            <h1>Moje projekty</h1>
+            <h1 ref={rightRef}>Moje projekty</h1>
         </div>
     )
 }

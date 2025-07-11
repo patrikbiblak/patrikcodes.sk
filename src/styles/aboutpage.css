@@ -88,25 +88,27 @@
 
 .logo-track {
   display: flex;
-  align-items: center;
-  gap: 120px;
-  transform: translate3d(0,0,0);
+  width: max-content;
   will-change: transform;
-  animation: scroll 12s linear infinite;
+  --icon-w: 48px;
+  --gap: 120px;
+  --scroll: calc(6 * (var(--icon-w) + var(--gap)));
+  animation: scroll 40s linear infinite;
 }
 
 .logo-track > * {
   flex: 0 0 auto;
-  width: 48px;
-  height: 48px;
+  width: var(--icon-w);
+  height: var(--icon-w);
+  margin-right: var(--gap);
 }
 
 @keyframes scroll {
   from {
-    transform: translate3d(0, 0, 0);
+    transform: translateX(0);
   }
   to {
-    transform: translate3d(-160px, 0, 0);
+    transform: translateX(calc(-1 * var(--scroll)));
   }
 }
 
@@ -114,18 +116,16 @@
 .logo-carousel::after {
   content: "";
   position: absolute;
-  top: 0; 
+  top: 0;
   bottom: 0;
   width: 160px;
   pointer-events: none;
   z-index: 2;
 }
-
 .logo-carousel::before {
   left: 0;
   background: linear-gradient(to right, #000, transparent);
 }
-
 .logo-carousel::after {
   right: 0;
   background: linear-gradient(to left, #000, transparent);
@@ -133,6 +133,6 @@
 
 @media (max-width: 480px) {
   .logo-track {
-    gap: 80px;
+    --gap: 80px;
   }
 }

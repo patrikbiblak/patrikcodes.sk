@@ -32,15 +32,13 @@ const ContactPage = () => {
   ];
 
   return (
-    <section className="contact-section">
-      <div className="container">
-        <div className="contact-heading">
-          <h2>Ozvite sa mi!</h2>
-          <p>Rád by som počul o vašom projekte. Poďme spolu vytvoriť niečo úžasné!</p>
+      <div className="contact-page container">
+        <div className="contactpage-heading">
+          <h1 ref={rightRef}>Poďme na to!</h1>
         </div>
 
-        <div className="contact-content">
-          <div className="contact-box">
+        <div className="contactpage-content">
+          <div className="contactpage-box">
             <h3>Pošli správu</h3>
             <form onSubmit={handleSubmit}>
               <label htmlFor="name">Meno</label>
@@ -76,12 +74,12 @@ const ContactPage = () => {
             </form>
           </div>
 
-          <div className="contact-box">
+          <div className="contactpage-box">
             <h3>Kontaktné údaje</h3>
             {contactDetails.map((detail) => {
               const Icon = detail.icon;
               return (
-                <div key={detail.label} className="contact-info-item">
+                <div key={detail.label} className="contactpage-info-item">
                   <Icon />
                   <div>
                     <p>{detail.label}</p>
@@ -93,7 +91,6 @@ const ContactPage = () => {
           </div>
         </div>
         </div>
-    </section>
   );
 };
 

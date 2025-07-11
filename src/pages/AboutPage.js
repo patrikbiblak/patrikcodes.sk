@@ -38,7 +38,7 @@ const AboutPage = () => {
                         <NavLink to="https://www.instagram.com/bpaatrik/">@bpaatrik</NavLink>
                     </h3>
                     <p>Káva, kód a disciplína tvoria môj dokonalý trojboj. Do každého projektu vkladám stovku percent, aby výsledok bežal hladko a bez bugov. Po práci ma šport udrží v kondícii a pomáha mi udržať si čistú myseľ.</p>
-                    <p className="hashtags">#front-end #self-improvement #athlete</p>
+                    <p className="hashtags">#front-end &nbsp; #self-improvement &nbsp; #athlete</p>
                 </div>
             </div>
         </div>

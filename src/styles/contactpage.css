@@ -91,6 +91,15 @@
   text-align: left;
 }
 
+.map-container {
+  width: 100%;
+  height: 500px;
+  margin: 2rem auto;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
 @media (max-width: 1170px) {
   .contactpage-content {
     flex-direction: column;

@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import "../styles/aboutpage.css";
 
 const AboutPage = () => {
@@ -11,13 +12,11 @@ const AboutPage = () => {
             </div>
 
             <div className="aboutme-text">
-                <img src="" alt="" />
-                <h3>@bpaatrik</h3>
+                <img src="images/bpaatrik.png" alt="me" />
+                <h3>
+                    <Link to="https://www.instagram.com/bpaatrik/">@bpaatrik</Link>
+                </h3>
                 <p>Káva, kód a disciplína tvoria môj dokonalý trojboj. Do každého projektu vkladám stovku percent, aby výsledok bežal hladko a bez bugov. Po práci ma šport udrží v kondícii a pomáha mi udržať si čistú myseľ.</p>
-            </div>
-
-            <div className="aboutme-skills">
-                
             </div>
         </div>
     )

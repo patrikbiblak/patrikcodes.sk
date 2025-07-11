@@ -5,7 +5,7 @@ import "../styles/aboutpage.css";
 
 const AboutPage = () => {
     const rightRef = useRef(null);
-    ScrollAnimation(rightRef, { customClass: 'right' });
+    ScrollAnimation(rightRef, { customClass: 'right', immediate: true });
 
     return (
         <div className="about-page container">

@@ -4,7 +4,7 @@ import "../styles/contactpage.css";
 
 const ContactPage = () => {
     const rightRef = useRef(null);
-    ScrollAnimation(rightRef, { customClass: 'right' });
+    ScrollAnimation(rightRef, { customClass: 'right', immediate: true });
 
     return (
         <div className="contact-page container">

@@ -4,7 +4,7 @@ import "../styles/projectspage.css";
 
 const ProjectsPage = () => {
     const rightRef = useRef(null);
-    ScrollAnimation(rightRef, { customClass: 'right' });
+    ScrollAnimation(rightRef, { customClass: 'right', immediate: true });
 
     return (
         <div className="projects-page container">

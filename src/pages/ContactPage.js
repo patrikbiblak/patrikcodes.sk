@@ -1,11 +1,8 @@
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
-import ScrollAnimation from "../hooks/ScrollAnimation";
 import "../styles/contactpage.css";
 
 const ContactPage = () => {
-    const rightRef = useRef(null);
-    ScrollAnimation(rightRef, { customClass: 'right', immediate: true });
 
   const [formData, setFormData] = useState({
     name: '',
@@ -34,7 +31,7 @@ const ContactPage = () => {
   return (
       <div className="contact-page container">
         <div className="contactpage-heading">
-          <h1 ref={rightRef}>Poďme na to!</h1>
+          <h1>Poďme na to!</h1>
         </div>
 
         <div className="contactpage-content">

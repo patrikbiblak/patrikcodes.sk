@@ -14,9 +14,9 @@ const AboutSection = () => {
       <div className="container about-content">
         <div className="about-item" ref={leftRef}>
           <h2>O mne</h2>
-          <p>Venujem sa front-end vývoju a neustále sa učím nové technológie, aby som mohol prinášať funkčné a vizuálne príťažlivé riešenia.</p>
-          <p>Mám skúsenosti s HTML, CSS, JavaScriptom a pracujem najmä s Reactom pri tvorbe dynamických používateľských rozhraní.</p>
-          <p>Rád budujem veci od nuly a spolupracujem s ľuďmi, ktorí chcú kvalitný a spoľahlivý web či už ide o portfólio, blog, e-shop alebo firemnú stránku.</p>
+          <p>Vytváram moderné webové aplikácie s dôrazom na funkčnosť a spoľahlivosť podľa presných požiadaviek klienta.</p>
+          <p>Počas vývoja udržiavam otvorenú komunikáciu, aby sme spoločne dolaďovali funkcie aj dizajn a zakomponovali všetky vaše predstavy.</p>
+          <p>Ponúkam tvorbu portfólií, blogov a firemných prezentácií, ktoré nielen esteticky zapôsobia, ale sú aj jednoduché na správu a flexibilné pre ďalší rozvoj.</p>
         </div>
         <div className="about-item" ref={rightRef}>
           <img src="images/profile1.png" alt="profile" />

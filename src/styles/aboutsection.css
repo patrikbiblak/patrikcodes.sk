@@ -47,6 +47,7 @@
 }
 
 .about-item img:hover {
+  object-fit: cover;
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
 }

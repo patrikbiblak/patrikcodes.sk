@@ -1,6 +1,6 @@
 .about-page {
     display: flex;
-    gap: 6rem;
+    gap: 4rem;
     flex-direction: column;
     align-items: flex-start;
     min-height: 100vh;
@@ -8,7 +8,7 @@
 }
 
 .aboutme-heading h1 {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 .aboutme-heading p {

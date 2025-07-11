@@ -9,7 +9,7 @@ const HeroSection = () => {
 
     return (
         <section className="hero-section">
-            <div className="container hero-content" ref={ref}>
+            <div className="container hero-content" ref={ref}> 
                 
                     <h1>PatrikCodes</h1>
 

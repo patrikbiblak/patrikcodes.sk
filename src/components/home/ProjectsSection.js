@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from 'react';
 import ScrollAnimation from "../../hooks/ScrollAnimation";
 import "../../styles/projectssection.css";
 
-
 const projects = [
   { title: "", description: "", },
   { title: "", description: "", },
@@ -49,7 +48,7 @@ const ProjectsSection = () => {
         <div className="projects-grid" ref={gridRef}>
           {projects.map(project => (
             <div key={project.title} className="project-card">
-              <p>coming soon</p>
+              <p>coming soon..</p>
             </div>
           ))}
         </div>

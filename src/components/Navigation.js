@@ -58,7 +58,10 @@ const Navigation = () => {
                   className={`navigation-link ${
                     location.pathname === path ? "active" : ""
                   }`}
-                  onClick={closeMenu}
+                  onClick={() => {
+                  closeMenu();
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
                 >
                   {label}
                 </NavLink>

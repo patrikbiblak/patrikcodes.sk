@@ -2,7 +2,7 @@ import "../styles/projectspage.css";
 
 const ProjectsPage = () => {
     return (
-        <div className="projects-page">
+        <div className="projects-page container">
             <h1>Moje projekty</h1>
         </div>
     )

@@ -12,7 +12,7 @@ const AboutPage = () => {
             </div>
 
             <div className="aboutme-text">
-                <img src="images/bpaatrik.png" alt="me" />
+                <img src="../../public/images/bpaatrik.png" alt="me" />
                 <h3>
                     <Link to="https://www.instagram.com/bpaatrik/">@bpaatrik</Link>
                 </h3>

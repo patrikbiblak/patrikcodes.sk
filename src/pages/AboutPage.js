@@ -13,7 +13,7 @@ const AboutPage = () => {
                 <h1 ref={rightRef}>Kto som</h1>
                 <p>Som mladý a nadšený front-end developer ktorý kladie dôraz na transparentnú komunikáciu, dodržiavanie termínov a vysokú kvalitu.</p>
                 <p>Vytváram rýchle a responzívne webové stránky presne podľa vašich predstáv, ktoré plynulo fungujú na rôznych zariadeniach. Môžete sa na mňa spoľahnúť, že vaše nápady premením na pútavú online prezentáciu, ktorá osloví vašich návštevníkov.</p>
-                <p>Potrebujete niekoho, kto zvládne aj developerské šprinty? Zavolajte ma!</p>
+                <p>Potrebujete niekoho, kto zvládne developerské šprinty? Zavolajte ma!</p>
             </div>
 
             <div className="aboutme-text-row">

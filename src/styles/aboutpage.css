@@ -130,3 +130,9 @@
   right: 0;
   background: linear-gradient(to left, #000, transparent);
 }
+
+@media (max-width: 480px) {
+  .logo-track {
+    gap: 80px;
+  }
+}

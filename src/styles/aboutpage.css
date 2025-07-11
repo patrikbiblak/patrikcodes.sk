@@ -1,9 +1,53 @@
 .about-page {
     display: flex;
+    gap: 6rem;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    text-align: center;
-    color: #fff;
-    background-color: var(--bg-primary);
+    min-height: 100vh;
+    padding: 6rem 2rem;
+}
+
+.aboutme-text-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+}
+
+.aboutme-text-row .aboutme-text-item:first-child {
+  flex: 0 0 auto;
+}
+
+.aboutme-text-row .aboutme-text-item:last-child {
+  flex: 1 1 auto;
+  max-width: 60%;
+}
+
+.about-page img {
+    aspect-ratio: 5 / 6;
+    width: 25vw;
+    height: auto;
+    border-radius: 3rem;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.about-page .hashtags {
+    color: var(--text-primary);
+}
+
+.aboutme-text-row .aboutme-text-item h3 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.aboutme-text-row p {
+    margin: 0;
+}
+
+.text-gap {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }

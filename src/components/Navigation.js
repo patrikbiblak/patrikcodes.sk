@@ -12,7 +12,7 @@ const Navigation = () => {
 
   const navItems = [
     { path: "/", label: "Domov" },
-    { path: "/about", label: "O mne" },
+    { path: "/about", label: "Kto som" },
     { path: "/projects", label: "Projekty" },
     { path: "/contact", label: "Kontakt" },
   ];

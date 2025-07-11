@@ -1,7 +1,7 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
-import "../../styles/contactsection.css";
 import ScrollAnimation from "../../hooks/ScrollAnimation";
+import "../../styles/contactsection.css";
 
 const ContactSection = () => {
   const leftRef = useRef(null);

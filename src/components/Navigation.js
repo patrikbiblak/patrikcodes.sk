@@ -23,7 +23,13 @@ const Navigation = () => {
   return (
     <header className="navigation" ref={ref}>
       <div className="navigation-container">
-        <NavLink to="/" onClick={closeMenu}>
+        <NavLink
+          to="/"
+          onClick={() => {
+            closeMenu();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
+        >
           <img
             src="logos/logo.png"
             alt="patrikcodes.sk"

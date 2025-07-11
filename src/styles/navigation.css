@@ -102,6 +102,7 @@
 
 .language-buttons span {
   font-size: 0.8rem;
+  cursor: default;
 }
 
 .language-buttons button {

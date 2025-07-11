@@ -56,10 +56,7 @@
 
 .navigation-link:hover,
 .navigation-link:active {
-  background-image: linear-gradient(to top, #54a6d3, #283777, #d86782, #E03E53);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: var(--global-color);
 }
 
 .hamburger {

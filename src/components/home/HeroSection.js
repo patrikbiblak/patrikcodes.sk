@@ -11,7 +11,7 @@ const HeroSection = () => {
         <section className="hero-section">
             <div className="container hero-content" ref={ref}> 
                 
-                    <h1>PatrikCodes</h1>
+                    <h1>Patrik<span>Codes</span></h1>
 
                     <p>Pretváram nápady na moderné a kreatívne webové stránky, ktoré vyniknú v digitálnom svete. Vytvorme spolu online zážitok, ktorý zaujme podľa vašich predstáv.</p>
 

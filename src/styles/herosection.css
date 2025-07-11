@@ -15,6 +15,10 @@
     letter-spacing: 4px;
 }
 
+.hero-section span {
+  color: var(--global-color);
+}
+
 .hero-section p {
     font-size: 1.2rem;
     margin-bottom: 2rem;

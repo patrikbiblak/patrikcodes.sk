@@ -22,15 +22,21 @@
 .projectspage-card {
     aspect-ratio: 8 / 4;
     width: 100%;
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
     background-color: var(--bg-card);
     border: 1px solid var(--border-default);
     border-radius: 20px;
-    cursor: pointer;
+    cursor: default;
 
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;      
+}
+
+.projectspage-card:hover {
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
 }
 
 @media (max-width: 1100px) {

@@ -1,4 +1,5 @@
-import React, { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
+import { Link } from "react-router-dom";
 import ScrollAnimation from "../../hooks/ScrollAnimation";
 import "../../styles/projectssection.css";
 
@@ -54,7 +55,9 @@ const ProjectsSection = () => {
         </div>
 
         <div className="projects-footer">
-          <button className="view-all">Zobraziť všetky projekty</button>
+          <button className="view-all">
+              <Link to="/projects">Zobraziť všetky projekty</Link>
+            </button>
         </div>
       </div>
     </section>

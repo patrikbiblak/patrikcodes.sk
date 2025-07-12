@@ -13,7 +13,7 @@ const Footer = () => {
     <div ref={ref} className="footer-columns">
     <div className="footer-1">
         <img
-                src="logos/logo.png"
+                src="logos/pv-logo.png"
                 alt="patrikvision.sk"
                 className="navigation-logo"
         />

@@ -31,7 +31,7 @@ const Navigation = () => {
           }}
         >
           <img
-            src="logos/logo.png"
+            src="logos/pv-logo.png"
             alt="patrikvision.sk"
             className="navigation-logo"
           />

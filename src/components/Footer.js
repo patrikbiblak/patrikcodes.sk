@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
     </div>
 
-        <p>© {new Date().getFullYear()} PatrikCodes. Všetky práva vyhradené.</p>
+        <p>© {new Date().getFullYear()} PatrikVision. Všetky práva vyhradené.</p>
     </footer>
 
   );

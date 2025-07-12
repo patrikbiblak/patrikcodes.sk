@@ -1,3 +1,3 @@
 # PatrikCodes
 
-https://patrikbiblak.github.io/patrikcodes.sk/
+https://patrikbiblak.github.io/patrikvision.sk/

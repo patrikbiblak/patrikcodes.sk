@@ -14,7 +14,7 @@ const Footer = () => {
     <div className="footer-1">
         <img
                 src="logos/logo.png"
-                alt="patrikcodes.sk"
+                alt="patrikvision.sk"
                 className="navigation-logo"
         />
       <p>

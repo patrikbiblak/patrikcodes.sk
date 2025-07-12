@@ -32,7 +32,7 @@ const Navigation = () => {
         >
           <img
             src="logos/logo.png"
-            alt="patrikcodes.sk"
+            alt="patrikvision.sk"
             className="navigation-logo"
           />
         </NavLink>
